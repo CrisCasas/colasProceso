@@ -13,7 +13,12 @@ public class Nodo {
     private int idNodo;
     private int numProcesos;
     private String nombre;
-
+    Nodo siguiente;
+    
+    public Nodo() {
+    	
+    };
+    
     public Nodo(int idNodo, int numProcesos, String nombre) {
         this.idNodo = idNodo;
         this.numProcesos = numProcesos;
