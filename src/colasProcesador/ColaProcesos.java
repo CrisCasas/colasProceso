@@ -16,7 +16,6 @@ import javax.swing.JOptionPane;
 public class ColaProcesos {
 
 	public Nodo nodo;
-	public Nodo primero,ultimo;
 
 	ArrayList<Nodo> colaNodos = new ArrayList();
 
@@ -78,8 +77,4 @@ public class ColaProcesos {
 	}
 	
 	
-	
-
-
-
 }
