@@ -79,20 +79,6 @@ public class ColaProcesos {
 	
 	
 	
-	/*
-	 * Scanner leer= new Scanner(System.in);
-	 * 
-	 * public void eliminarNodo() { Nodo actual= new Nodo(); actual = primero; Nodo
-	 * anterior= new Nodo(); anterior=null; boolean encontrado=false;
-	 * System.out.println("Ingrese el id del nodo a Eliminar: "); int
-	 * nodoBuscado=leer.nextInt(); if(primero!=null) { while(actual !=null &&
-	 * encontrado != true) { if(actual==primero) { primero=primero.siguiente; }else
-	 * if(actual==ultimo) { anterior.siguiente=null; ultimo=ante } } } //int
-	 * nodoBuscado=
-	 * Integer.parseInt(JOptionPane.showInputDialog(null,"id del nodo a eliminar"));
-	 * 
-	 * }
-	 */
 
 
 
