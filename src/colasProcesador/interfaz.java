@@ -26,7 +26,7 @@ public class interfaz {
        
         pintar.setColor(Color.GREEN);
         pintar.fillRect(10, 100, 50, 50);
-        pintar.drawString("Asesor", 10, 90);
+        pintar.drawString("CPU", 10, 90);
     }
     
     public void pintarNodo(Graphics pintar, Nodo nodo, int x, int y) {
@@ -54,9 +54,9 @@ public class interfaz {
         pintar.setColor(Color.BLACK);
         pintar.drawString(cliente.getNombre(), 80, 90);
         pintar.setColor(Color.BLACK);
-        pintar.drawString("Atendiendo a: " + cliente.getNombre() + 
-                     "; número de transacciones: " + cliente.getnumProcesadores(), 10, 250);
-        pintar.drawString("Bienvenido al Cajero: " + cliente.getNombre(), 400, 10);
+        pintar.drawString("Ejecutando a: " + cliente.getNombre() + 
+                     "; tiempo de ejecución: " + cliente.getnumProcesadores(), 10, 250);
+        pintar.drawString("Bienvenido al Procesador: " + cliente.getNombre(), 400, 10);
         pintar.setColor(Color.BLACK);
     }
 
